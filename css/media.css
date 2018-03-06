@@ -1,0 +1,90 @@
+
+@media screen and (max-width: 992px) {
+	
+	.powerful-photo {
+		margin-bottom: 20px;
+	}
+	.press-center {
+		margin: 50px 0;
+	}
+	.news {
+		padding-bottom: 20px;
+	}
+	.header-center__text {
+		display: none;
+	}
+	.point1__circle {
+		padding-bottom: 20px;
+	}
+	.sortbar-menu {
+		padding-bottom: 30px;
+	}
+	.navigation-box {
+		padding-bottom: 20px;
+	}
+	.legal-offer__title {
+		color: #000;
+	}
+	.legal-offer__text {
+		color: #000;
+	}
+	.category__list a {
+		color: #000;
+	}
+	.slick-dots {
+		margin-bottom: 25px;
+	}
+	.modal-window {
+		width: 70%;
+	}
+
+}
+@media screen and (max-width: 768px) {
+	.modal-window {
+		width: 300px;
+	}
+	.consultation-form {
+		width: 100%;
+	}
+	.footer__btn {
+		text-align: center;
+	}
+}
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+	.socials-line {
+		display: none;
+	}
+	.sortbar__list {
+		flex-direction: column;
+	}
+	.sortbar__item {
+		padding-bottom: 25px;
+	}
+	.search-line {
+		flex-wrap: wrap;
+	}
+	.social-blok {
+		padding-top: 15px;
+	}
+	.triangle-right {
+		display: none;
+	}
+	.partner {
+    	padding-top: 32px;
+	}
+	.navigation-mix {
+		flex-direction: column;
+	}
+	.reg__text {
+		display: none;
+	}
+	.reg__phone {
+		display: none;
+	}
+	.header-center__title  {
+		font-size: 45px;
+	}
+}
