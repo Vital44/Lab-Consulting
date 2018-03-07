@@ -520,6 +520,9 @@ a, a:hover {
     font-size: 14px;
     color: #9fa2a9;
 }
+.info-menu a:hover {
+    color: #6198ef;
+}
 .industry {
     padding-top: 55px;
 }
@@ -729,6 +732,11 @@ a, a:hover {
 }
 .navigation-mix {
     padding-top: 13px;
+    justify-content: flex-end;
+}
+.navigation-mix__title.active {
+    border: 3px solid #b81c31;
+    color: #b81c31;
 }
 .navigation-mix span {
     font-family: 'MuseoSansCyrl-300';
@@ -736,14 +744,16 @@ a, a:hover {
     display: inline-block;
 }
 .navigation-mix a {
-    width: 200px;
+    width: 208px;
     color: #a1a6af;
     margin-right: 17px;
-    font-family: 'MuseoSansCyrl-700';   
+    font-family: 'MuseoSansCyrl-700'; 
+    border: 3px solid #b81c3100;
+    padding: 5px 10px 5px 15px;
+
 }
 .navigation-mix a:hover {
     border: 3px solid #b81c31;
-    padding: 10px 20px 17px 15px;
     color: #b81c31;
 }
 
@@ -961,6 +971,11 @@ a, a:hover {
     margin-right: 15px;
     outline: none;
     cursor: pointer;
+    background: none;
+}
+.consultation-form__btn:hover {
+    color: #fff;
+    background: #b81c31;
 }
 .consultation-form__btn a {
     font-family: 'MuseoSansCyrl-700';
