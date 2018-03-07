@@ -287,6 +287,7 @@ a, a:hover {
     padding: 11px 12px;
     cursor: pointer;
     border: none;
+    outline: none;
 }
 .btn-phone:hover {
     border-bottom: 4px solid #149d6f;
@@ -729,26 +730,20 @@ a, a:hover {
 .navigation-mix {
     padding-top: 13px;
 }
-.navigation-box {
-    margin-right: 45px;
-    color: #a1a6af;
-}
-.navigation-box a {
-    color: #a1a6af;
-    font-family: 'MuseoSansCyrl-700';
-    font-size: 16px;
-    margin-right: 17px;
-}
-.navigation-box__title a {
-    
-}
-.navigation-box__text {
+.navigation-mix span {
     font-family: 'MuseoSansCyrl-300';
     font-size: 12px;
+    display: inline-block;
 }
-.navigation-box a:hover {
+.navigation-mix a {
+    width: 200px;
+    color: #a1a6af;
+    margin-right: 17px;
+    font-family: 'MuseoSansCyrl-700';   
+}
+.navigation-mix a:hover {
     border: 3px solid #b81c31;
-    padding: 10px 150px 30px 17px;
+    padding: 10px 20px 17px 15px;
     color: #b81c31;
 }
 
