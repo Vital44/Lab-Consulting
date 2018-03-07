@@ -456,9 +456,10 @@ a, a:hover {
     width: 195px;
     text-align: center;
 }
-.mission__btn:hover {
+.btn__inform:hover {
     color: #000;
-    background: #fff;
+    background: #1cb883;
+    border: 2px solid #1cb883;
 }
 .news__title {
     font-family: 'MuseoSansCyrl-700';
