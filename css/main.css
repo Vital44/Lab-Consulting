@@ -235,7 +235,6 @@ a, a:hover {
     background: none;
     color: #fff;
     font-size: 30px;
-    margin-top: 7px;
     cursor: pointer;
 }
 .opened {
@@ -252,11 +251,9 @@ a, a:hover {
 
 .header {
     border-top: 5px solid #58647a;
-    background: url('../img/chikago-megapolis.png') no-repeat top center;
+    background: url('../img/chikago-megapolis.png') no-repeat top center/cover;
     position: relative;
-}
-.top-line {
-    line-height: 4;
+    padding-bottom: 270px;
 }
 .main {
     padding-top: 17px;
@@ -267,7 +264,6 @@ a, a:hover {
 .menu__item {
     font-family: 'MuseoSansCyrl-700';
     font-size: 17px;
-    margin-right: 25px;
 }
 .menu {
     align-items: center;
@@ -284,7 +280,9 @@ a, a:hover {
     font-size: 13px;
     background: #1cb883;
     color: #fff;
-    padding: 11px 12px;
+    line-height: 35px;
+    width: 156px;
+    height: 35px;
     cursor: pointer;
     border: none;
     outline: none;
@@ -298,10 +296,6 @@ a, a:hover {
     color: #46e6b0;
     margin-right: 8px;
     font-size: 16px;
-}
-.item-phone {
-    text-align: right;
-    margin-top: 13px;
 }
 .header-center::after {
     content: '';
@@ -327,7 +321,6 @@ a, a:hover {
     background: rgba(255, 255, 255, 0.4);
     padding: 10px 20px 10px 20px;
     border-radius: 4px;
-    margin-bottom: 145px;
 }
 .socials-line a {
     margin-right: 15px;
@@ -513,9 +506,6 @@ a, a:hover {
     font-size: 19px;
     padding-bottom: 15px;
 }
-.company {
-    
-}
 .info-menu a {
     font-family: 'MuseoSansCyrl-300';
     font-size: 14px;
@@ -581,6 +571,9 @@ a, a:hover {
     font-size: 12px;
     text-transform: uppercase;
 }
+.footer__btn {
+    padding: 25px 0;
+}
 .copyrite {
     padding-top: 16px;
     font-size: 12px;
@@ -597,9 +590,6 @@ a, a:hover {
     font-family: 'MuseoSansCyrl-100';
     font-size: 12px;
     border-bottom: 1px solid #4c515a;
-}
-.footer__btn {
-    text-align: right;
 }
 
 /* section about */
@@ -680,7 +670,7 @@ a, a:hover {
     color: #a1a6af;
 }
 .sortbar__item a:hover, .sortbar__item.active a {
-    border: 2px solid #b81c31;
+    border: 3px solid #b81c31;
     color: #b81c31;
     padding: 10px;
 }
@@ -732,7 +722,7 @@ a, a:hover {
     color: #7e838d;
 }
 .navigation-mix {
-    padding-top: 13px;
+    padding: 13px;
     justify-content: flex-end;
 }
 .navigation-mix__title.active {
@@ -848,7 +838,7 @@ a, a:hover {
 }
 
 .legal-support {
-    background: url('../img/auditt.png') no-repeat top center;  
+    background: url('../img/auditt.png') no-repeat top center/cover;  
 }
 .legal-support__photo {
     padding-top: 44px;
@@ -865,10 +855,10 @@ a, a:hover {
     font-family: 'MuseoSansCyrl-300';
     font-size: 15px;
     color: #fafafb;
-    width: 320px;
+    width: 90%;
 }
 .category {
-    margin: 36px 0 0 30px;
+    margin: 36px 0;
     font-family: 'MuseoSansCyrl-300';
     font-size: 15px;
 }
