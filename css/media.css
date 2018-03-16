@@ -46,6 +46,19 @@
 	.social-business {
 		text-align: center;
 	}
+	.information-company__title {
+		text-align: center;
+	}
+	.footer-logo img {
+		display: block;
+    	margin: 0 auto;
+    	width: 80%;
+	}
+	.issues {
+		width: 100%;
+		text-align: center;
+		font-size: 25px;
+	}
 }
 @media screen and (max-width: 768px) {
 	.modal-window {
@@ -81,7 +94,7 @@
 		flex-direction: column;
 	}
 	.reg__text {
-		display: none;
+		width: auto;
 	}
 	.reg__phone {
 		display: none;

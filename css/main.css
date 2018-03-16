@@ -250,7 +250,9 @@ a, a:hover {
 /* First screen */
 
 .header {
-    border-top: 5px solid #58647a;
+    border-top: 5px solid #58647a;   
+}
+.header_background {
     background: url('../img/chikago-megapolis.png') no-repeat top center/cover;
     position: relative;
     padding-bottom: 270px;
@@ -538,8 +540,9 @@ a, a:hover {
 }
 .issues {
     font-size: 12px;
-    width: 243px;
+    width: 77%;
     margin-right: 100px;
+    font-size: 12px;
 }  
 .issues__address {
     width: 100px;
@@ -842,6 +845,8 @@ a, a:hover {
 }
 .legal-support__photo {
     padding-top: 44px;
+    display: block;
+    margin: 0 auto;
 }
 .legal-offer {
     padding-top: 78px;
