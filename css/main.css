@@ -276,6 +276,7 @@ a, a:hover {
 .menu__item a:hover {
     border-bottom: 3px solid #1cb883;
     padding-bottom: 4px;
+    transition: all 300ms ease;
 }
 .btn-phone{
     font-family: 'MuseoSansCyrl-700';
@@ -597,11 +598,9 @@ a, a:hover {
 
 /* section about */
 
-.search {
+.secondnav {
     background: #f6f6f7;
-}
-.search-blok {
-    align-items: center;
+    padding: 15px 0;
 }
 .search-line {
     align-items: center;
@@ -609,15 +608,13 @@ a, a:hover {
 .social-blok a {
     margin-right: 19px;
 }
-.partner {
-    padding-top: 15px;
-}
 .partner__text {
    font-family: 'MuseoSansCyrl-100';
    font-size: 12px;
    width: 260px;
    line-height: 1.2;
    color: #9ea2ac; 
+   margin-bottom: 0;
 }
 .triangle-right {
     width: 0;
@@ -644,14 +641,14 @@ a, a:hover {
 .form-search__btn i {
     color: #b6b6b7;
 }
-.form-search {
+.search {
     position: relative;
     justify-content: flex-end;
 }
 .form-search__input {
     font-family: 'MuseoSansCyrl-100';
     font-size: 14px;
-    width: 170px;
+    width: 180px;
     border: 3px solid #eeeeef;
     border-radius: 3px;
     outline: none;
